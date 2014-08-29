@@ -1,0 +1,149 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+BEGIN_COMMENT
+#+STYLE: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+END_COMMENT
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: The Puzzle Boxes
+#+AUTHOR: Stephen Brown
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="http://github.io/stsb11/challenges">Fork me on GitHub</a>
+</div>
+<center>
+<img src='img/puzzle.jpg' width=33%>
+</center>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+e* Introduction
+[[file:img/pic.jpg]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: intro
+:END:
+** What are PIC chips?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+Peripheral Interface Controllers are small silicon chips which can be programmed to perform useful tasks.
+In school, we tend to use Genie branded chips, like the C08 model you will use in this project. Others (e.g. PICAXE) are available.
+PIC chips allow you connect different inputs (e.g. switches) and outputs (e.g. LEDs, motors and speakers), and to control them using flowcharts.
+Chips such as these can be found everywhere in consumer electronic products, from toasters to cars. 
+
+While they might not look like much, there is more computational power in a single PIC chip used in school than there was in the space shuttle that went to the moon in the 60's!
+** When would I use a PIC chip?
+Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
+In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
+In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
+* Introduction
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Over the past year, you learned about electronics by making different projects that have been supplied to you. In this unit, you'll be equipped with diagnostic skills to further improve your ability to fix problems with circuits when they occur, to create and upload original programs to circuits and to create circuits without having to use the chemical etch tank. 
+- If you want some additional help, try reading through [[./resources/multimeters.pdf][**this**]] short guide to using a multimeter.
+** The puzzle boxes
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- There are 10 different puzzle boxes, labelled a-j. Inside each are components, soldered to Machine screws (bolts with screwdriver heads). You will need to use the different settings on the multimeter as well as your ingenuity and knowledge of electronics to identify the contents of each. Can you identify the contents of the Yin-Yang box?
+- **a:** This box contains a 10k and a 330 Ohm resistor. Which two pins are each resistor connected to?
+
+- **b:** This box also contains two resistors. What are their values, and which pins are they connected to?
+
+- **c:** An [[http://en.wikipedia.org/wiki/Photoresistor][LDR]] and something else is in here. LDRs typically cary in resistance from 400 to 2M (2 million) Ohms, depending on the amount they are exposed to: More light = less resistance.
+
+	i. Read the resistance across the LDR, and write it down.
+
+	ii. Put your finger over the LDR and read the resistance again.
+
+	iii. What is the value of the other resistor in the box?
+
+- **d:** Where's a [[http://simple.wikipedia.org/wiki/Diode][Diode]] symbol on a multimeter - get a rectifier diode from the component drawers to investigate how they are picked up with a meter (remember, they only allow current to flow in [[http://en.wikipedia.org/wiki/One_Direction][one direction]]). Which pins are the two diodes connected to, and which way are they facing inside the box? Make a sketch showing the components in this box, and indicating which way any diodes are facing. 
+
+- **f:** Connect the upturned probes to a 12V [[http://simple.wikipedia.org/wiki/Direct_Current][DC]] power supply. Using a [[http://simple.wikipedia.org/wiki/Multimeter][Multimeter]], determine what [[http://simple.wikipedia.org/wiki/Voltage][potential difference]] is there between the 0V terminal and the other terminals.
+
+- **g:** Connect a 12V DC power supply as indicated on the box. Inside is a simple LED torch circuit. 
+
+	i. Measure and record the voltage at each of the points, by putting the Common (black) probe on 0V, and touching the red probe at each terminal, one at a time. 
+
+- **h:** The component in here is called a [[http://simple.wikipedia.org/wiki/Potentiometer][potentiometer]]. By turning the dial, the resistance between its 3 pins can be changed.
+
+	i. What is the resistance between pins 1 and 3? 
+
+	ii. Turn the dial to face pin 2. What is the resistance between pins 1 and 2? What is the resistance between 2 and 3? What number do you get when these values are added together? 
+
+	iii. Turn the potentiometer wiper to the left and right notches marked near the dial and measure the resistance at each point.
+
+- **i:** The green component is called a thermistor. Its resistance changes in response to temperature. 	
+
+	The thermistor is wired between two of the screws, as is a normal resistor. Work out how the box is wired up.
+	(tip: You should be able to put your finger lightly on the thermistor to make its resistance change)
+
+
+ [[./index.html][Return to homepage]]

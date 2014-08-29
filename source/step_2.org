@@ -1,0 +1,167 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+BEGIN_COMMENT
+#+STYLE: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+END_COMMENT
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: The Programming boxes
+#+AUTHOR: Stephen Brown
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="http://github.io/stsb11/challenges">Fork me on GitHub</a>
+</div>
+<center>
+<img src='img/program.jpg' width=33%>
+</center>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+e* Introduction
+[[file:img/pic.jpg]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: intro
+:END:
+** What are PIC chips?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+Peripheral Interface Controllers are small silicon chips which can be programmed to perform useful tasks.
+In school, we tend to use Genie branded chips, like the C08 model you will use in this project. Others (e.g. PICAXE) are available.
+PIC chips allow you connect different inputs (e.g. switches) and outputs (e.g. LEDs, motors and speakers), and to control them using flowcharts.
+Chips such as these can be found everywhere in consumer electronic products, from toasters to cars. 
+
+While they might not look like much, there is more computational power in a single PIC chip used in school than there was in the space shuttle that went to the moon in the 60's!
+** When would I use a PIC chip?
+Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
+In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
+In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
+* PIC Programming
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- One of the most useful process components you will use in Systems engineering is a PIC chip. This are small silicon chips which you can write programs for, which will in turn allow you to take control of how your circuit behaves.
+
+- Using our pre-built programming boxes, you can see how a circuit can be re-purposed to perform an task you want. [[http://hackaday.com/][Hardware hackers]] take everyday objects, and add electronics to them to create new original products from scrap materials - this is a great way to create innovative new products, and teaches you an enormous amount about Systems & Control at the same time. 
+
+- Your task is to produce a series of increasingly difficult programs to make the inputs and outputs in the programming boxes perform different jobs. 
+
+- You can download the Circuit Wizard file which contains the circuit that is inside the program box from [[./resources/program_box.cwz][here]]. It also has an example PIC program to get you started; well worth a read!
+
+** The programming boxes
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+There are 12 different programming challenges, each a little harder than the one before it. You're not expected to complete them all (although if you can, you should take GCSE S&C!).
+
+**a:** Bike light. Make a program that causes the LED lights to alternate on and off once a second when the unit is turned on. 
+
+**b:** Momentary LED torch. Make a program where holding down the button causes the LEDs to illuminate, and releasing it turns them off. 
+
+**c:** Toggle switched LED torch. Change the program so that the LEDs come on when the button is pushed once, and are turned off when pushed a second time.
+
+**d:** [[http://en.wikipedia.org/wiki/Morse_code][Morse code transmitter]]. Make a program that will cause the piezo siren to beep (and the LEDs illuminate) when the button is pushed, to allow act as a Morse code transmitter. **Bonus marks** if you can make it transmit SOS when the button is pushed once.
+
+**e:** Night light. Write a program for the box that causes the LEDs to illuminate when it gets dark. 
+
+**f:** Night light Mk II. Modify your program so that your night light can also be turned on and off by the PTM switch.
+
+**g:** Music box. When the button is pushed, Happy birthday plays and the red LED is illuminated. When pushed while the LDR is covered, a different tune is played, and the green LED comes on. 
+
+**h:** Music box Mk II. The piezo plays a tone which goes up and down in response to the current light level. Even better, if the button has to be held down at the same time. 
+
+**i:** Personal alarm. Write a program that will make the piezo siren beep, and the LEDs flash on and off when the button is held down for 3 seconds. 
+
+**j:** Book alarm. The user places an object on top of the program box (so the LDR is in the dark). When the object is removed, the piezeo siren sounds and the LEDs to flash. 
+
+**k:** Free choice. Write your own program to utilise all the inputs and outputs, and write a short description of what it does.
+
+**Final challenge:** Write a program to control an alarm which (when armed) sits inside a cupboard or drawer, and goes off when it detects the drawer has been opened. It should work as follows:
+
+	- 1. Green LED comes on
+
+	- 2. When the button is pushed and held for 3 seconds, the green LED should blink on and off once a second and the piezo should beep at the same time for 5 seconds.
+
+	- 3. After 5 seconds, the green LED should go off, and the red LED should be turned on. 
+
+	- 4. The current light level should be stored in a variable called "C".
+
+	- 5. The value of C should be increased by 5. 
+
+	- 6. Once a second, the current light level should be compared to the stored in "C". 
+
+		- 6a. IF the current light level goes above the value of C, then...
+
+		- 6b. The red and green LEDs should flash one after another, while the piezo siren beeps.
+
+	- 7. Repeat step 6.
+
+- For additional credit, add instructions to disarm the alarm without setting it off by holding down the button. 
+
+[[./index.html][Return to homepage]]
+

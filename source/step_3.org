@@ -1,0 +1,131 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+BEGIN_COMMENT
+#+STYLE: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+END_COMMENT
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: Stripboard Circuit Design
+#+AUTHOR: Stephen Brown
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="http://github.io/stsb11/challenges">Fork me on GitHub</a>
+</div>
+<center>
+<img src='img/sboard.jpg' width=33%>
+</center>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+e* Introduction
+[[file:img/pic.jpg]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: intro
+:END:
+** What are PIC chips?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+Peripheral Interface Controllers are small silicon chips which can be programmed to perform useful tasks.
+In school, we tend to use Genie branded chips, like the C08 model you will use in this project. Others (e.g. PICAXE) are available.
+PIC chips allow you connect different inputs (e.g. switches) and outputs (e.g. LEDs, motors and speakers), and to control them using flowcharts.
+Chips such as these can be found everywhere in consumer electronic products, from toasters to cars. 
+
+While they might not look like much, there is more computational power in a single PIC chip used in school than there was in the space shuttle that went to the moon in the 60's!
+** When would I use a PIC chip?
+Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
+In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
+In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
+* Stripboard Circuit Design
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- Imagine you're an electronics hobbyist, and you'd like to build a circuit from parts you've got laying around. Chances are you don't want to spend £350 on an etch tank, £30 on chemicals and make a mess of your kitchen sink. Instead, one can purchase [[http://en.wikipedia.org/wiki/Stripboard][stripboard]] from electronics shops (e.g. [[http://www.maplin.co.uk/p/stripboard-fl17t][Maplin]]), which can be used to create compact, permanent circuits at home. 
+- The creatively titled stripboard is a board which has thin strips of copper running along it, with each strip containing dozens of 1mm holes. By soldering components between different columns, and using a small drill bit on a handle (known as a [[http://www.maplin.co.uk/p/spot-face-cutter-fl25c][spot face cutter]]), almost any circuit can be quickly created. This requires a steady hand though, as it is easy to accidentally solder tracks together. 
+- Before you start the tasks, you'll need to load up the DIY layout creator. This can be found in the open drive, over in **G:\Systems and Control\Student Home software\DIYlc\diylc.exe**, or alternatively can be downloaded for home use over at the creator's homepage, [[http://code.google.com/p/diy-layout-creator/][here]].
+** The design challenges
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+- Start off by operning the Circuit Wizard file located over at: **G:\Systems and Control\Year 8\1 - The Challenges\Stripboard Tasks.cwz**, or download it directly from [[./resources/sboard_tasks.cwz][**here**]].
+- For each of the circuit diagrams, use DIYlc to create a stripboard design, so you could make these designs in real life.
+- Of the four designs, you should solder together two of them for yourself, to see the results of your design work.
+
+**1:** Using DIYlc, design a simple LED light. When complete, modify the design on Circuit Wizard to include a switch.
+
+**2:** This time, there are 3 LEDs to connect together. To make this design more compact, you may wish to use the spot face cutter.
+
+**3:** This circuit uses a pair of resistors set up as something known as a Potential divider. While the simulation is running, click on the LDR and adjust the light level by moving the slider. When does the LED come on? When could this circuit be useful in real life?
+- HINT: If you intend to solder this together, when holding a BC548B with the letters facing you, the leftmost pin is the collector and the middle is the base.
+
+**4:** 555 Timer challenge - this is a very challenging task! Run the simulation - what happens? When designing, aim to pack the components into the smallest possible space. 
+- HINT A: Remember Pin 1 in the top-left corner of the chip, and that you then count down and round in a horseshoe shape after that. Pin 8 is the top-right hand corner pin.
+- HINT B: Don't forget to use a chip carrier, and not to solder your 555 timer straight to the board. 
+
+[[./index.html][Return to homepage]]
+
