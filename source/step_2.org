@@ -167,7 +167,7 @@ There are 12 different programming challenges, each a little harder than the one
 :HTML_CONTAINER_CLASS: badge
 :END:
 - *Download the Word [[\\brgradellnas\open$\Systems%20and%20Control\Year%208\The%20Challenges][document]] and upload you screenshots below each letter.*
-- *Only upload the the document once to the badge you feel it fits best with.*
+- *Only upload the the document once, to the badge you feel it fits best with.*
 - Use the 'Snipping Tool' to take a picture of your flowchart. Upload the challenges 'A to E' for the Silver Badge.
 ** Badge It Gold
 :PROPERTIES:
