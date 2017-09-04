@@ -14,7 +14,7 @@
 <a href="https://github.com/stcd11/challenges">Fork me on GitHub</a>
 </div>
 <center>
-<img src='img/puzzle1.jpg' width=33%>
+<img src='./img/puzzle1.jpg' width=33%>
 </center>
 #+END_HTML
 
