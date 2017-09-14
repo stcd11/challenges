@@ -144,8 +144,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 
  **Box C:** The green component is called a thermistor(Thermal Resistor). Its resistance changes in response to temperature. 	
 
-	i. The thermistor is wired between two of the screws, as is a normal resistor. Work out how the box is wired up.
-	ii. *(tip: You should be able to put your finger lightly on the thermistor to make its resistance change).
+    i. To test the component, you can put your finger on it and this will raise the temperature *slowly*. If you keep the meter on it, you should see the resistance change. 
 
  **Resistors** There are 4 resistors included in the box, use a multimeter to record the values of each resistor in the same text file you created.
 

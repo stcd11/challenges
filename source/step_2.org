@@ -117,7 +117,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-There are 12 different programming challenges, each a little harder than the one before it. You're not expected to complete them all (although if you can, you should take GCSE S&C!).
+There are 12 different programming challenges, each a little harder than the one before it. You're not expected to complete them all (although if you can, you should take GCSE Design Engineering!).
 #+BEGIN_HTML
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZxuAZZn1_kE" frameborder="0" allowfullscreen></iframe>
 #+END_HTML
