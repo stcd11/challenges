@@ -105,9 +105,9 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-- One of the most useful process components you will use in Systems engineering is a PIC chip. This are small silicon chips which you can write programs for, which will in turn allow you to take control of how your circuit behaves.
+- One of the most useful process components you will use in Design engineering is a PIC chip. This are small silicon chips which you can write programs for, which will in turn allow you to take control of how your circuit behaves.
 
-- Using our pre-built programming boxes, you can see how a circuit can be re-purposed to perform an task you want. [[http://hackaday.com/][Hardware hackers]] take everyday objects, and add electronics to them to create new original products from scrap materials - this is a great way to create innovative new products, and teaches you an enormous amount about Systems & Control at the same time. 
+- Using our pre-built programming boxes, you can see how a circuit can be re-purposed to perform an task you want. [[http://hackaday.com/][Hardware hackers]] take everyday objects, and add electronics to them to create new original products from scrap materials - this is a great way to create innovative new products, and teaches you an enormous amount about Design Engineering at the same time. 
 
 - Your task is to produce a series of increasingly difficult programs to make the inputs and outputs in the programming boxes perform different jobs. 
 
