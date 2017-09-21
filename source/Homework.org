@@ -123,7 +123,12 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- Complete the 555 timer challenge and upload the 'snipped' picture of your complete stripboard.
+- Draw the flowchart symbol for a 'decision' and describe the difference between an *analogue* input and a *digital* input.
+- Name 3 input components.
+- Name 3 output components.
+- Take a photograph of your work and upload it to [[https://www.bournetolearn.com][www.bournetolearn.com]] homework 3 badge.
+
+
 
 [[./index.html][Return to homepage]]
 
