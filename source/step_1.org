@@ -132,7 +132,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 [[./img/LightLDR.jpg]]
 	ii. Put your finger over the LDR and read the resistance again.
 [[./img/DarkLDR.jpg]]
-	iii. What is the value of the other resistor in the box?
+	
 
  **Box B:** The component in here is called a [[http://simple.wikipedia.org/wiki/Potentiometer][potentiometer]]. By turning the dial, the resistance between its 3 pins can be changed.
 
