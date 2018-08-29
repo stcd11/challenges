@@ -154,7 +154,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :END:
 - To complete the badges you will need to click on the link at the bottom and complete the quiz. This will automatically badge your work.
 - You will need to be logged into [[http://www.bournetolearn.com][www.bournetolearn.com]] to complete the badge.
-- Click on this [[https://www.bournetolearn.com/quizzes/y8-challenges/Lesson_1/][link]]  Storage box quiz.
+- Click on this [[https://www.bournetolearn.com/quizzes/y8-challenges/Lesson_1/][link]] for the board faults quiz.
 - **Please ensure you also upload the .txt(Notepad) document you have completed as evidence of your work.**
 
 

@@ -110,7 +110,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :HTML_CONTAINER_CLASS: badge
 :END:
 [[./img/Board_faults.jpg]]
-- Identify as many faults as you can in the soldered board above.
+- Identify as many faults as you can in the soldered boards above.
 - For each fault, describe why you think think it is a fault and what are the possible electrical issues with fault.
 ** Homework 2
 :PROPERTIES:
