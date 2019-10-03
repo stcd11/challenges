@@ -111,7 +111,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 
 - Your task is to produce a series of increasingly difficult programs to make the inputs and outputs in the programming boxes perform different jobs. 
 
-- You can download the Circuit Wizard file which contains the circuit that is inside the program box from [[file:doc/resources/program_box_new.cwz][here]]. It also has an example PIC program to get you started; well worth a read!
+- You can download the Circuit Wizard file which contains the circuit that is inside the program box from [[./resources/program_box_new.cwz][here]]. It also has an example PIC program to get you started; well worth a read!
 
 ** The programming boxes
 :PROPERTIES:
