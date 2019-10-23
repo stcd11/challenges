@@ -101,18 +101,17 @@ While they might not look like much, there is more computational power in a sing
 Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
 In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
 In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
-* Introduction
+* Board fault finding and multimeter testing
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
 - Over the past year, you learned about electronics by making different projects that have been supplied to you. In this unit, you'll be equipped with diagnostic skills to further improve your ability to fix problems with circuits when they occur, to create and upload original programs to circuits and to create circuits without having to use the chemical etch tank. 
 - If you want some additional help, try reading through [[./resources/multimeters.pdf][**this**]] short guide to using a multimeter.
-** The puzzle boxes and Boards
+** The Board Faults
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-- There are 7 different circuit boards labelled A - G with faults on them in a clear acrylic box. There is also a component box with 3 different components to test and 4 different resistors to test, labelled A,B,C, 1, 2, 3 and 4. Inside the box are components, soldered to Machine screws (bolts with screwdriver heads). You will need to use the different settings on the multimeter as well as your ingenuity and knowledge of electronics to test the contents of each.
-[[./img/BoardA.jpg]]
+- There are 7 different circuit boards labelled A - G below with faults on them. There is also a component box with 3 different components to test and 4 different resistors to test, labelled A,B,C, 1, 2, 3 and 4. Inside the box are components, soldered to Machine screws (bolts with screwdriver heads). You will need to use the different settings on the multimeter as well as your ingenuity and knowledge of electronics to test the contents of each.
 - The PCB's have a number of faults on them, here is a list of the possible faults you will find:
 
     1. Voltage regulator is the wrong way around.
@@ -123,18 +122,48 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
     6. There is an LED the wrong way around.
     7. Diode is the wrong way around.
 
-- *Open a .txt (NotePad) file and record which board has which fault.*
+- *Open a .txt (NotePad) or .doc (Word) file and record which board has which fault.*
+
+- *Board A*
+[[./img/Box_A.jpg]] 
+
+- *Board B*
+[[./img/Box_B.jpg]]
+
+- *Board C*
+[[./img/Box_C.jpg]]
+
+- *Board D*
+[[./img/Box_D.jpg]]
+
+- *Board E*
+[[./img/Box_E.jpg]]
+
+- *Board F*
+[[./img/Box_F.jpg]]
+
+- *Board G*
+[[./img/Box_G.jpg]]
+
 - Now move onto the puzzle boxes below and record your findings in the *same .txt file*.
 
- **Box A:** An [[http://en.wikipedia.org/wiki/Photoresistor][LDR]]. LDRs typically have a resistance value from 400 to 2M (2 million) Ohms, depending on the amount they are exposed to: More light = less resistance.
+** The Puzzle Boxes
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- Below is a video on how to use a multimeter. Please watch this before continuing testing below.
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3LyguFvjKKA" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
+- **Box A:** An [[http://en.wikipedia.org/wiki/Photoresistor][LDR]]. LDRs typically have a resistance value from 400 to 2M (2 million) Ohms, depending on the amount they are exposed to: More light = less resistance.
 
-	i. Read the resistance across the LDR, and write it down.
+	i. *Select the 200k setting on the multimeter for Box A, B and C below.* Read the resistance across the LDR, and write it down.
 [[./img/LightLDR.jpg]]
 	ii. Put your finger over the LDR and read the resistance again.
 [[./img/DarkLDR.jpg]]
 	
 
- **Box B:** The component in here is called a [[http://simple.wikipedia.org/wiki/Potentiometer][potentiometer]]. By turning the dial, the resistance between its 3 pins can be changed.
+- **Box B:** The component in here is called a [[http://simple.wikipedia.org/wiki/Potentiometer][potentiometer]]. By turning the dial, the resistance between its 3 pins can be changed.
 
 	i. What is the resistance between pins 1 and 3? 
 
@@ -142,7 +171,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 
 	iii. Turn the potentiometer wiper to the left and right notches marked near the dial and measure the resistance at each point.
 
- **Box C:** The green component is called a thermistor(Thermal Resistor). Its resistance changes in response to temperature. 	
+- **Box C:** The green component is called a thermistor(Thermal Resistor). Its resistance changes in response to temperature. 	
 
     i. To test the component, you can put your finger on it and this will raise the temperature *slowly*. If you keep the meter on it, you should see the resistance change. 
 
