@@ -107,6 +107,31 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :END:
 - Over the past year, you learned about electronics by making different projects that have been supplied to you. In this unit, you'll be equipped with diagnostic skills to further improve your ability to fix problems with circuits when they occur, to create and upload original programs to circuits and to create circuits without having to use the chemical etch tank. 
 - If you want some additional help, try reading through [[./resources/multimeters.pdf][**this**]] short guide to using a multimeter.
+** Identifying the Components
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- Firstly, lets identify the components and which way around the should go.
+- *The 78L05 voltage regulator.*
+[[./img/78L05_Front.JPG]]
+[[./img/78L05_Top.JPG]]
+- On the PCB.
+[[./img/78L05_PCB.JPG]]
+- *The Diode.*
+[[./img/Diode_pic.JPG]]
+- On the PCB.
+[[./img/Diode_PCB.JPG]]
+- *The 8-Pin carrier.*
+[[./img/8pin_Carrier.JPG]]
+- On the PCB.
+[[./img/8pin_PCB.JPG]]
+- *The LEDs.*
+[[./img/LED_flat_edge.JPG]]
+- On the PCB.
+[[./img/LED_PCB.JPG]]
+
+- *Take you time to get familiar with these components before you start to identify them and fault find.*
+
 ** The Board Faults
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
