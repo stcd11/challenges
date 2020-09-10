@@ -165,7 +165,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 [[./img/Box_E.jpg]]
 
 - *Board F*
-[[./img/Box_F.jpg]]
+[[./img/Box_F1.jpg]]
 
 - *Board G*
 [[./img/Box_G.jpg]]
