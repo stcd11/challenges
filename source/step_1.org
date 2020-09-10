@@ -148,7 +148,8 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
     7. Diode is the wrong way around.
 
 - *Open a .txt (NotePad) or .doc (Word) file and record which board has which fault.*
-
+- Below is a picture of the blank PCB
+[[./img/Blank_board.JPG]]
 - *Board A*
 [[./img/Box_A.jpg]] 
 
